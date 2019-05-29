@@ -1,0 +1,27 @@
+li{
+    list-style: none;
+    display: inline;
+    font-weight: 700;
+    margin-right: 40px;
+    cursor: pointer;
+}
+button#menu2{
+    display: none;
+}
+@media (max-width: 600px){
+   nav{
+       display:none;
+       width: 100%;
+   }
+   button#menu2{
+     display: block;
+   }
+   nav.open{
+       display: block;
+   }
+   nav li{
+       display: block;
+       padding: 7px 0;
+       color: gray;
+   }
+}
